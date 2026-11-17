@@ -1,0 +1,10 @@
+{
+  "name": "portaoeletronicoribeiraopreto",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "postbuild": "node -e \"const fs=require('node:fs');for(const f of ['plan.md','TODO.md','manus-routes.json','app.config.ts'])fs.rmSync('dist/'+f,{force:true})\""
+  }
+}

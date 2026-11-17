@@ -1,0 +1,37 @@
+# Portões Eletrônicos em Ribeirão Preto
+
+Portal de contato para pedidos de conserto, manutenção e instalação de portões eletrônicos em Ribeirão Preto, SP.
+
+## Serviços
+- [Conserto de motor de portão eletrônico](https://portaoeletronicoribeiraopreto.vercel.app/servicos/conserto-de-motor-de-portao/): Orientação para solicitar avaliação quando o automatizador falha, perde força ou deixa o portão parado.
+- [Manutenção preventiva e ajuste de portão eletrônico](https://portaoeletronicoribeiraopreto.vercel.app/servicos/manutencao-preventiva-de-portao-eletronico/): Solicite uma avaliação de ruídos, movimento irregular e itens de desgaste, sem mexer no sistema elétrico por conta própria.
+- [Instalação de automatizador para portão](https://portaoeletronicoribeiraopreto.vercel.app/servicos/instalacao-de-automatizador-para-portao/): Explique o tipo e as características do portão para o prestador avaliar a compatibilidade do automatizador.
+
+## Bairros
+- [Centro](https://portaoeletronicoribeiraopreto.vercel.app/bairros/centro/): orientações para solicitar conserto e manutenção de portões eletrônicos no bairro Centro, em Ribeirão Preto.
+- [Jardim Botânico](https://portaoeletronicoribeiraopreto.vercel.app/bairros/jardim-botanico/): orientações para solicitar conserto e manutenção de portões eletrônicos no bairro Jardim Botânico, em Ribeirão Preto.
+- [Nova Aliança](https://portaoeletronicoribeiraopreto.vercel.app/bairros/nova-alianca/): orientações para solicitar conserto e manutenção de portões eletrônicos no bairro Nova Aliança, em Ribeirão Preto.
+- [Vila Tibério](https://portaoeletronicoribeiraopreto.vercel.app/bairros/vila-tiberio/): orientações para solicitar conserto e manutenção de portões eletrônicos no bairro Vila Tibério, em Ribeirão Preto.
+- [Bonfim Paulista](https://portaoeletronicoribeiraopreto.vercel.app/bairros/bonfim-paulista/): orientações para solicitar conserto e manutenção de portões eletrônicos no bairro Bonfim Paulista, em Ribeirão Preto.
+- [Campos Elíseos](https://portaoeletronicoribeiraopreto.vercel.app/bairros/campos-eliseos/): orientações para solicitar conserto e manutenção de portões eletrônicos no bairro Campos Elíseos, em Ribeirão Preto.
+
+## Páginas institucionais
+- [Sobre](https://portaoeletronicoribeiraopreto.vercel.app/sobre/)
+- [Perguntas frequentes](https://portaoeletronicoribeiraopreto.vercel.app/perguntas-frequentes/)
+- [Política de privacidade](https://portaoeletronicoribeiraopreto.vercel.app/politica-de-privacidade/)
+
+## Perguntas e respostas
+### O que fazer quando o portão eletrônico para de funcionar?
+Evite insistir em acionamentos e mantenha pessoas afastadas das partes móveis. Não abra o motor nem toque na fiação. Informe o sintoma e o bairro ao prestador para combinar uma avaliação.
+
+### Como saber se o problema está no motor?
+A falha pode estar no motor, no controle, na alimentação elétrica ou em componentes mecânicos. A causa não pode ser confirmada apenas por um sintoma; o prestador precisa avaliar o conjunto.
+
+### Com que frequência devo fazer manutenção?
+A frequência varia conforme o modelo, a intensidade de uso e as orientações do fabricante. Consulte o manual do equipamento ou confirme a recomendação com o prestador.
+
+### Qual automatizador é adequado para o meu portão?
+A escolha depende do tipo de abertura, das dimensões, das condições mecânicas e da frequência de uso. O prestador deve avaliar a compatibilidade com o portão específico.
+
+### Como peço um orçamento?
+Clique em WhatsApp ou Ligue agora e informe o bairro, o tipo de portão e o serviço ou sintoma. O prestador confirma as informações necessárias e informa valores e condições no atendimento.

@@ -1,0 +1,45 @@
+DOMINIO_BASE=https://portaoeletronicoribeiraopreto.vercel.app
+
+PORTÕES ELETRÔNICOS EM RIBEIRÃO PRETO
+====================================
+
+Este é um site estático em HTML, CSS e JavaScript puros. O conteúdo e os metadados ficam no HTML de cada página. Não há dependências npm.
+
+1. DEFINIR O DOMÍNIO BASE
+-------------------------
+A linha DOMINIO_BASE no início deste arquivo registra o domínio canônico. Se usar um domínio próprio ou outro endereço Vercel, atualize essa linha e faça uma substituição global do domínio atual nas tags canonical, Open Graph e JSON-LD das 13 páginas, em sitemap.xml, robots.txt e llms.txt. Confirme que todas as URLs absolutas usam HTTPS e o mesmo domínio.
+
+2. TROCAR WHATSAPP E TELEFONE
+-----------------------------
+Abra config.js e substitua os valores provisórios 5516900000000 pelo telefone real do prestador, no formato 55 + DDD + número e somente dígitos. Essa é a configuração central: tracker.js ajusta os links de WhatsApp e ligação em todas as páginas. Edite a mensagem padrão se necessário, sem alterar página por página.
+
+3. CONFIGURAR OU ATUALIZAR O APPS SCRIPT
+----------------------------------------
+Abra a planilha de registro e escolha Extensões > Apps Script. Cole apps-script/Code.gs no editor e execute setup() uma vez, autorizando as permissões solicitadas. Para atualizar uma implantação existente, abra Implantar > Gerenciar implantações, edite a implantação, escolha Nova versão e clique em Implantar. Mantenha o acesso como Qualquer pessoa e preserve a URL /exec usada em config.js. Se criar outra implantação, substitua o endpoint em config.js.
+
+4. CONSULTAR RELATÓRIOS DE CLIQUES
+----------------------------------
+Na planilha, use a aba Cliques. Para um relatório por site, escolha Inserir > Tabela dinâmica, selecione a aba como origem, coloque Site em Linhas e conte a coluna Botão (ação) em Valores. O Apps Script também prepara a aba Resumo.
+
+5. ENVIAR AO GITHUB E IMPORTAR NA VERCEL
+----------------------------------------
+Envie os arquivos do projeto para um repositório GitHub chamado portaoeletronicoribeiraopreto e importe esse repositório na Vercel. Use Framework Preset: Other, Build Command: npm run build e Output Directory: dist. Não instale frameworks e não crie package-lock.json. Para testar localmente sem gerar o arquivo de lock, execute npm install --package-lock=false e depois npm run build. O postbuild remove plan.md, TODO.md, manus-routes.json e app.config.ts de dist; eles permanecem apenas no repositório-fonte.
+6. CADASTRAR NO GOOGLE SEARCH CONSOLE
+-------------------------------------
+Verifique o domínio ou a propriedade do site no Google Search Console e envie https://portaoeletronicoribeiraopreto.vercel.app/sitemap.xml, ou o sitemap atualizado se o domínio tiver mudado. A indexação e o posicionamento dependem dos buscadores e não podem ser garantidos.
+
+7. PERFIL DA EMPRESA NO GOOGLE
+------------------------------
+Crie ou atualize um Perfil da Empresa no Google somente se houver um prestador real, elegível e com endereço comercial verdadeiro. Use nome, telefone, endereço e áreas de atendimento corretos, seguindo as regras atuais do Google. Este portal não possui endereço comercial próprio; não cadastre o portal como se fosse uma oficina.
+
+8. SUBSTITUIR AS FOTOS ILUSTRATIVAS
+----------------------------------
+As imagens atuais são ilustrativas e não representam necessariamente o prestador, sua equipe ou o local do serviço. Quando houver fotos reais apropriadas, substitua os arquivos mantendo os mesmos nomes. Preserve hero.jpg em 1600×900 e sobre.jpg e as três fotos de serviço em 1000×750; atualize os atributos width, height e alt se as dimensões ou o conteúdo mudarem.
+
+PRIVACIDADE
+-----------
+A página politica-de-privacidade/index.html descreve os dados técnicos registrados em cliques. O site não pede nome, e-mail ou CPF e não usa cookies publicitários. O conteúdo integral do contato é tratado no WhatsApp pelo prestador; não compartilhe dados pessoais sensíveis ao pedir avaliação.
+
+SEGURANÇA DA CÓPIA PÚBLICA
+--------------------------
+O endpoint em config.js foi deixado vazio, então o tracker não envia eventos até que você o configure. O Code.gs lê TOKEN de Propriedades do script e rejeita POST enquanto essa propriedade não estiver definida. Configure seus próprios valores no ambiente que for usar; não os adicione ao repositório público. O endpoint usado pelo JavaScript do navegador fica visível aos visitantes do site, portanto não o trate como senha.

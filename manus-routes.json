@@ -1,0 +1,56 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "title": "Inicial"
+    },
+    {
+      "path": "/servicos/conserto-de-motor-de-portao/",
+      "title": "servicos/conserto-de-motor-de-portao"
+    },
+    {
+      "path": "/servicos/manutencao-preventiva-de-portao-eletronico/",
+      "title": "servicos/manutencao-preventiva-de-portao-eletronico"
+    },
+    {
+      "path": "/servicos/instalacao-de-automatizador-para-portao/",
+      "title": "servicos/instalacao-de-automatizador-para-portao"
+    },
+    {
+      "path": "/bairros/centro/",
+      "title": "bairros/centro"
+    },
+    {
+      "path": "/bairros/jardim-botanico/",
+      "title": "bairros/jardim-botanico"
+    },
+    {
+      "path": "/bairros/nova-alianca/",
+      "title": "bairros/nova-alianca"
+    },
+    {
+      "path": "/bairros/vila-tiberio/",
+      "title": "bairros/vila-tiberio"
+    },
+    {
+      "path": "/bairros/bonfim-paulista/",
+      "title": "bairros/bonfim-paulista"
+    },
+    {
+      "path": "/bairros/campos-eliseos/",
+      "title": "bairros/campos-eliseos"
+    },
+    {
+      "path": "/sobre/",
+      "title": "sobre"
+    },
+    {
+      "path": "/perguntas-frequentes/",
+      "title": "perguntas-frequentes"
+    },
+    {
+      "path": "/politica-de-privacidade/",
+      "title": "politica-de-privacidade"
+    }
+  ]
+}
