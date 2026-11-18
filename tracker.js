@@ -69,10 +69,14 @@
     };
     var q = Object.keys(d).map(function (k) { return k + '=' + encodeURIComponent(d[k]); }).join('&');
     var url = C.endpoint + '?' + q;
-    try {
-      fetch(url, { method: 'GET', mode: 'no-cors', keepalive: true });
-    } catch (e) {
+    var pixelFallback = function () {
       try { new Image().src = url; } catch (e2) {}
+    };
+    try {
+      var request = fetch(url, { method: 'GET', mode: 'no-cors', keepalive: true });
+      if (request && typeof request.catch === 'function') request.catch(pixelFallback);
+    } catch (e) {
+      pixelFallback();
     }
   }
 

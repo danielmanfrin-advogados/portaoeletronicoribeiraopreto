@@ -7,5 +7,5 @@ window.SITE_CONFIG = {
   telefone: "5516900000000",
   mensagem: "Olá! Vim pelo site e gostaria de solicitar uma avaliação para conserto ou manutenção de portão eletrônico em Ribeirão Preto.",
   cidade: "Ribeirão Preto",
-  endpoint: ""
+  endpoint: "https://script.google.com/macros/s/AKfycby5F2jHXpFWfOUjuqoTldwB68y7A5XADtiMftgjLN0i_EPbjJ-NfniHrKucDD26WK04/exec"
 };
